@@ -90,6 +90,8 @@ main {
     /* border: .1rem solid purple; */
     flex: 1;
     padding: .7rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cartao {
@@ -98,6 +100,7 @@ main {
     height: 18rem;
     box-shadow: .5rem .5rem .2rem .03rem #eee;
     padding: .5rem;
+    margin-bottom: .1rem
 }
 
 .imagem {
@@ -149,3 +152,4 @@ footer {
         display: none;
     }
 }
+
